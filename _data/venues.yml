@@ -7,3 +7,13 @@
 
 "Vision":
   color: "#009f36"
+
+"ICML":
+  url: https://icml.cc/
+
+"ICLR":
+  url: https://iclr.cc/
+
+"NeurIPS":
+  url: https://neurips.cc/
+

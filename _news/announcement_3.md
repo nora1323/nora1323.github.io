@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-01-22 11:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our work **[OCEAN](https://arxiv.org/pdf/2410.23703)** was accepted to **ICLR 2025**! 🌊
+

@@ -1,7 +1,26 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.6;
+  font-weight: 400;
+}
 
+strong,
+b {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;   // 保持粗体效果，可以按需调整
+}
 // Typography
 
 p,

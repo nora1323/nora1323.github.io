@@ -1,0 +1,13 @@
+# _config_dev.yml —— 仅本地预览用
+url: "http://127.0.0.1:4000"
+baseurl: ""
+
+# 本地不处理 notebook、超大图片、外部抓取，提升速度与稳定性
+exclude:
+  - assets/jupyter
+  - node_modules
+  - vendor
+
+# 关闭 imagemagick 的处理（避免本地没装 convert 报错）
+imagemagick:
+  enabled: false
