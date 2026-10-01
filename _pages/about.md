@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  M.S. Student at UC San Diego
+subtitle: Senior AI Research Engineer at Archer
 
 profile:
   align: right
@@ -24,12 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi 👋 I’m Yuxin Xiong, a Master’s student in Computer Science at [UC San Diego](https://ucsd.edu/), advised by [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/). Before that, I received my Bachelor’s degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), where I was advised by [Prof. Siheng Chen](https://siheng-chen.github.io/).
+Hi 👋 I’m Yuxin Xiong, a **Senior AI Research Engineer at Archer**, where I work on post-training, agents, reasoning, and retrieval-augmented generation (RAG). I joined Archer in July 2026 after graduating with a Master’s degree in Computer Science from [UC San Diego](https://ucsd.edu/) in June 2026, where I was advised by [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/). Before that, I received my Bachelor’s degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), where I was advised by [Prof. Siheng Chen](https://siheng-chen.github.io/).
 
 My research focuses on **Reasoning**, **Reinforcement Learning** and **Large Language Model (LLM) Agents** 🤖 — aiming to make language models more *intelligent*, *interpretable*, and *aligned* with human reasoning.
- 
-Previously, I collaborated with [Prof. Zhiting Hu](https://zhiting.ucsd.edu/) on large-scale reasoning model training at UC San Diego. I also interned at **AWS AI Lab**, working with [Minjie Wang](https://jermainewang.github.io/) on Chain-of-Thought (CoT) agents and tool-augmented LLM reasoning. 
 
-I’m currently open to Ph.D. positions (Fall 2026) 🎓 and new grad opportunities in AI/ML research and development 🚀.
-
-
+Previously, I collaborated with [Prof. Zhiting Hu](https://zhiting.ucsd.edu/) on large-scale reasoning model training at UC San Diego. I also interned at **AWS AI Lab**, working with [Minjie Wang](https://jermainewang.github.io/) on Chain-of-Thought (CoT) agents and tool-augmented LLM reasoning.

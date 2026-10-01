@@ -1,4 +1,14 @@
 {
+  "work": [
+    {
+      "name": "Archer",
+      "position": "Senior AI Research Engineer",
+      "location": "San Jose, California, United States",
+      "startDate": "2026-07",
+      "summary": "Full-time · On-site",
+      "highlights": ["Post-training, agents, reasoning, and retrieval-augmented generation (RAG)."]
+    }
+  ],
   "education": [
     {
       "institution": "University of California, San Diego",
@@ -7,7 +17,7 @@
       "area": "Computer Science",
       "studyType": "Master of Science",
       "startDate": "2024-09",
-      "endDate": "Present"
+      "endDate": "2026-06"
     },
     {
       "institution": "Shanghai Jiao Tong University",
@@ -20,10 +30,10 @@
     }
   ],
   "skills": [
-  {
-    "name": "Programming",
-    "icon": "fa-solid fa-code",
-    "keywords": ["Python", "C++", "Matlab", "Java (basic)"]
-  }
-]
+    {
+      "name": "Programming",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C++", "Matlab", "Java (basic)"]
+    }
+  ]
 }
