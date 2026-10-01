@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi 👋 I’m Yuxin Xiong, a **Senior AI Research Engineer at Archer**, where I work on post-training, agents, reasoning, and retrieval-augmented generation (RAG). I joined Archer in July 2026 after graduating with a Master’s degree in Computer Science from [UC San Diego](https://ucsd.edu/) in June 2026, where I was advised by [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/). Before that, I received my Bachelor’s degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), where I was advised by [Prof. Siheng Chen](https://siheng-chen.github.io/).
+Hi 👋 I’m Yuxin Xiong, a **Senior AI Research Engineer** at [Archer Aviation](https://archer.com/zee), where I work on post-training, agents, reasoning, and retrieval-augmented generation (RAG). I joined Archer in July 2026 after graduating with a Master’s degree in Computer Science from [UC San Diego](https://ucsd.edu/) in June 2026, where I was advised by [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/). Before that, I received my Bachelor’s degree from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), where I was advised by [Prof. Siheng Chen](https://siheng-chen.github.io/).
 
 My research focuses on **Reasoning**, **Reinforcement Learning** and **Large Language Model (LLM) Agents** 🤖 — aiming to make language models more *intelligent*, *interpretable*, and *aligned* with human reasoning.
 

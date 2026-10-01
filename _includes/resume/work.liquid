@@ -1,9 +1,9 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign work = data[1] | sort: 'startDate' | reverse %}
   {% for content in work %}
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+    <li class="list-group-item cv-entry-item">
+      <div class="cv-entry">
+        <div class="cv-entry-meta">
           {% if content.startDate %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
@@ -12,36 +12,26 @@
           {% else %}
             {% assign date = '' %}
           {% endif %}
-          <table class="table-cv">
-            <tbody>
-              <tr>
-                <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
-                </td>
-              </tr>
-              {% if content.location %}
-                <tr>
-                  <td>
-                    <p class="location">
-                      <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ content.location }}
-                    </p>
-                  </td>
-                </tr>
-              {% endif %}
-            </tbody>
-          </table>
+          {% if date != '' %}
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ date }}</span>
+          {% endif %}
+          {% if content.location %}
+            <p class="location">
+              <i class="fa-solid fa-location-dot iconlocation"></i>
+              {{ content.location }}
+            </p>
+          {% endif %}
         </div>
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">
+        <div class="cv-entry-details">
+          <h6 class="title font-weight-bold">
             {% if content.url and content.url != '' %}
               <a href="{{ content.url }}">{{ content.position }}</a>
             {% else %}
               {{ content.position }}
             {% endif %}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          <h6 style="font-size: 0.95rem">{{ content.name }}</h6>
+          <h6 style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
           <ul class="items">
             {% for item in content.highlights %}
               <li>
