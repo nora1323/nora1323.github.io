@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I joined Archer Aviation as a **Senior AI Research Engineer**! ✈️
+I joined Archer Aviation as a **Senior AI Research Engineer**! 🚀
